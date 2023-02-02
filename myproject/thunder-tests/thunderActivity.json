@@ -1,0 +1,111 @@
+[
+  {
+    "_id": "2d621057-169b-4885-9cf0-e505e0922080",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/login",
+    "url": "http://127.0.0.1:8000/api/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-01-31T05:21:12.150Z",
+    "modified": "2023-01-31T05:21:57.003Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "username",
+          "value": "hey"
+        },
+        {
+          "name": "password",
+          "value": "1234"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "423ffc6f-08f5-4413-9230-88813f691608",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/user",
+    "url": "http://127.0.0.1:8000/api/user",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-01-31T05:33:15.092Z",
+    "modified": "2023-01-31T05:33:15.092Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Token 75c8c996de83ac6ff7914e6a7b26ff693117231d6354408c54fd8a64c5f3d7c1"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "username",
+          "value": "hey",
+          "isDisabled": true
+        },
+        {
+          "name": "password",
+          "value": "1234",
+          "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c3c98261-2ff2-494b-8091-f72bc2708aef",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/register",
+    "url": "http://127.0.0.1:8000/api/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-01-31T05:33:30.671Z",
+    "modified": "2023-01-31T05:35:05.685Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Token 75c8c996de83ac6ff7914e6a7b26ff693117231d6354408c54fd8a64c5f3d7c1",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "username",
+          "value": "sai"
+        },
+        {
+          "name": "password",
+          "value": "sai123"
+        },
+        {
+          "name": "email",
+          "value": "sai@gmail.com"
+        },
+        {
+          "name": "first_name",
+          "value": "sai"
+        },
+        {
+          "name": "last_name",
+          "value": "jhfdfg"
+        }
+      ]
+    },
+    "tests": []
+  }
+]
